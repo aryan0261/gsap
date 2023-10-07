@@ -1,0 +1,115 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Gilroy";
+  color: #fff;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+#main {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  position: relative;
+}
+#nav {
+  height: 70px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+}
+#nav2 {
+  display: flex;
+  gap: 40px;
+}
+#nav3 {
+  display: flex;
+  gap: 30px;
+}
+#nav3 button {
+  background: #fff;
+  color: #000;
+  padding: 10px 15px;
+  border: none;
+  font-weight: 500;
+  font-size: 15px;
+}
+#nav3 h4 {
+  display: flex;
+  align-items: center;
+}
+img {
+  height: 45px;
+}
+#main h1{
+    font-size: 110px;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+#main h1 span{
+    background-color:rgb(133, 38, 38);
+    border-radius: 50px;
+    font-size: 33px;
+    padding: 20px 40px;
+    margin: 0 30px;
+}
+#text1 {
+    color: red;
+    margin-top: 12vh;
+}
+
+.red{
+  color: red;
+}
+#main #leftimg{
+  height: 250px;
+  position: absolute;
+  top: 14%;
+left: 7%;
+border-radius: 30px;
+}
+
+#main #rightimg{
+  height: 250px;
+  position: absolute;
+  bottom: 8%;
+  right: 7%;
+
+border-radius: 30px;
+}
+
+#main #leftdimg{
+  height: 200px;
+  position: absolute;
+  bottom: 10%;
+left: 8%;
+border-radius: 30px;
+}
+
+#main #rightuimg{
+  height: 250px;
+  position: absolute;
+  top: 14%;
+right: 10%;
+border-radius: 30px;
+
+}
+h5{
+  position: absolute;
+  bottom: 7%;
+  left: 50%;
+  transform: translate(-50%,0);
+  font-size: 20px;
+}
